@@ -1,0 +1,154 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+body {
+    background: #ffffff;
+    background-image: url(bg.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    font-family: monospace;
+}
+
+div {
+    margin: 20px;
+}
+/*
+div2{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font: 33px monospace;
+
+    color: blanchedalmond;
+    text-align: center;
+    text-transform: uppercase;
+}
+*/
+
+.Text{
+    position: absolute;
+    font: 15px monospace;
+    text-align: center;
+    top: 250px;
+    left: center;
+    overflow: hidden;
+    color: azure;
+    background: rgb(32,32,32);
+    background: linear-gradient(90deg, rgba(32,32,32,0) 0%, rgba(32,32,32,1) 33%, rgba(32,32,32,1) 66%, rgba(32,32,32,0) 100%);
+}
+
+
+.Title{
+    position: absolute;
+    font: 33px monospace;
+    text-transform: uppercase;
+    text-align: center;
+    color: grey;
+    top: 0px;
+    left: center;
+    overflow: hidden;
+    background: rgb(32,32,32);
+    background: linear-gradient(90deg, rgba(32,32,32,0) 0%, rgba(0,217,255,1) 33%, rgba(0,255,87,1) 66%, rgba(32,32,32,0) 100%);
+    width: 1000px;
+    border: 0;
+    border-radius: 100px;
+    padding: 20px 10px;
+}
+
+a{
+    text-decoration: none;
+    position: relative;
+}
+.link1{
+    color: black;
+}
+
+.link2{
+    color: black;
+}
+
+.Button1{
+    font-family: monospace;
+    background: #00e600;
+    color: #1d1d1d;
+    cursor: pointer;
+    font-size: 2em;
+    padding: 1.5rem;
+    border: 0;
+    transition: all 0.5s;
+    border-radius: 45px;
+    width: auto;
+    position: relative;
+    min-width: 250px;
+}
+.Button1::after{
+    font-family: "Font Awesome 5 Pro";
+    color: white;
+    font-weight: 400; 
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+}
+
+.Button1:hover{
+        background: #f0f0f0;
+        transition: all 0.5s;
+        border-radius: 10px;
+        box-shadow: 0px 6px 15px #8c8c8c;
+        color: white;
+}
+.Button1:hover::after {
+            opacity: 1;
+            transition: all 0.5s;
+            color: white;
+}
+
+/*
+    Styl dla przycisku rejestracji
+*/
+
+.Button2{
+    font-family: monospace;
+    background: #f0f0f0;
+    color: #1d1d1d;
+    cursor: pointer;
+    font-size: 2em;
+    padding: 1.5rem;
+    border: 0;
+    transition: all 0.5s;
+    border-radius: 45px;
+    width: auto;
+    position: relative;
+    min-width: 250px;
+}
+
+.Button2::after{
+        font-family: "Font Awesome 5 Pro";
+        font-weight: 400;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+}
+
+.Button2:hover{
+        background: #00e600;
+        transition: all 0.5s;
+        border-radius: 10px;
+        box-shadow: 0px 6px 15px #0000ff61;
+
+        color: white;
+}
+.Button2:hover::after {
+            opacity: 1;
+            transition: all 0.5s;
+            color: white;
+}
+
+
